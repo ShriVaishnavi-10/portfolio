@@ -125,7 +125,7 @@ export default function ExecutiveContact() {
                         </div>
 
                         <p className="text-muted text-lg font-light leading-relaxed max-w-md italic opacity-60">
-                            Available for high-stakes digital collaborations and full stack system development.
+                            I'd love to hear from you. Whether it's a project, an opportunity, or just a conversation, I'm always open to new ideas and collaborations.
                         </p>
 
                         <div className="flex gap-6">
