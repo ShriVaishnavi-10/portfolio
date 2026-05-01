@@ -49,6 +49,18 @@ const projects = [
         githubUrl: "https://github.com/ShriVaishnavi-10/designagency",
         liveUrl: "https://designagency-shri.vercel.app/"
     },
+      {
+        title: "Shri Vaishnavi - Portfolio",
+        category: "Portfolio",
+        description: "My portfolio website showcasing my work and skills.",
+        tags: ["Next.js","Tailwind CSS","TypeScript"],
+        icon: <Globe size={20} className="text-accent" />,
+        size: "small",
+        image: "/portfolio-themed.png",
+        githubUrl: "https://github.com/ShriVaishnavi-10/portfolio",
+        liveUrl: "https://shrivaishnavi-b-portfolio.vercel.app/"
+    },
+
 
 ];
 
