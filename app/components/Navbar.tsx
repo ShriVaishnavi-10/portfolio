@@ -29,7 +29,7 @@ export default function Navbar() {
                 <div className="flex gap-3 md:gap-4">
                     <a href="https://github.com/ShriVaishnavi-10" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:text-foreground transition-colors duration-500"><Github size={13} /></a>
                     <a href="https://www.linkedin.com/in/b-shri-vaishnavi" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:text-foreground transition-colors duration-500"><Linkedin size={13} /></a>
-                    <a href="mailto:shrivaishnavi.contact@gmail.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:text-foreground transition-colors duration-500"><Mail size={13} /></a>
+                    <a href="mailto:shrivaishnavi.contact@gmail.com" className="text-[#D4AF37] hover:text-foreground transition-colors duration-500"><Mail size={13} /></a>
                 </div>
             </motion.div>
         </nav>

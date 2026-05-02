@@ -130,15 +130,15 @@ export default function ExecutiveContact() {
 
                         <div className="flex gap-6">
                             {[
-                                { icon: Github, link: "https://github.com/ShriVaishnavi-10" },
-                                { icon: Linkedin, link: "https://www.linkedin.com/in/b-shri-vaishnavi" },
-                                { icon: Mail, link: "mailto:shrivaishnavi.contact@gmail.com" }
+                                { icon: Github, link: "https://github.com/ShriVaishnavi-10", target: "_blank" },
+                                { icon: Linkedin, link: "https://www.linkedin.com/in/b-shri-vaishnavi", target: "_blank" },
+                                { icon: Mail, link: "mailto:shrivaishnavi.contact@gmail.com", target: undefined }
                             ].map((item, i) => (
                                 <motion.a
                                     key={i}
                                     href={item.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    target={item.target}
+                                    rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
                                     whileHover={{ y: -5, color: "#D4AF37" }}
                                     className="p-4 rounded-full border border-white/5 bg-white/[0.02] text-foreground/40 transition-colors hover:border-accent/30 hover:bg-accent/5"
                                 >
@@ -244,8 +244,8 @@ export default function ExecutiveContact() {
                 </div>
 
                 <div className="mt-32 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-                    <div className="font-playfair text-[10px] uppercase tracking-[0.4em] text-foreground/20">
-                        &copy; {new Date().getFullYear()} SHRI VAISHNAVI DEVELOPMENT. ALL RIGHTS RESERVED.
+                    <div className="font-playfair text-[10px] uppercase tracking-[0.4em] text-[#D4AF37]">
+                        &copy; {new Date().getFullYear()} SHRI VAISHNAVI - FULL STACK DEVELOPER. ALL RIGHTS RESERVED.
                     </div>
                 </div>
             </div>

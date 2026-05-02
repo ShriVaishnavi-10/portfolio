@@ -51,7 +51,7 @@
 }
 
 .executive-container {
-  @apply max-w-[1440px] mx-auto px-[6vw];
+  @apply max-w-[1440px] mx-auto w-full px-0 md:px-[4vw];
 }
 
 @layer utilities {
