@@ -38,10 +38,10 @@ export default function StructuredShowcase() {
                         >
                             <div className="flex justify-between items-start mb-12">
                                 <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center">
-                                    <project.icon className="text-primary" size={32} />
+                                    <project.icon className="text-[#D4AF37]" size={32} />
                                 </div>
                                 <button className="p-4 rounded-full border border-white/5 group-hover:bg-primary group-hover:text-white transition-all">
-                                    <ArrowUpRight size={24} />
+                                    <ArrowUpRight className="text-[#D4AF37]" size={24} />
                                 </button>
                             </div>
 

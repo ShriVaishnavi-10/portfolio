@@ -41,7 +41,7 @@ export default function ProfessionalHero() {
                 transition={{ repeat: Infinity, duration: 2 }}
                 className="absolute bottom-12 opacity-10"
             >
-                <ChevronDown size={32} />
+                <ChevronDown className="text-[#D4AF37]" size={32} />
             </motion.div>
         </section>
     );

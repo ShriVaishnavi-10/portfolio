@@ -15,7 +15,7 @@ export default function EducationSection() {
                         className="executive-glass p-12 rounded-[2.5rem] flex flex-col md:flex-row gap-8 items-center"
                     >
                         <div className="w-16 h-16 rounded-2xl bg-brand-primary/10 flex items-center justify-center shrink-0">
-                            <GraduationCap className="text-brand-primary" size={32} />
+                            <GraduationCap className="text-[#D4AF37]" size={32} />
                         </div>
                         <div>
                             <span className="text-xs font-bold text-brand-primary uppercase tracking-widest mb-2 block">Bachelor of Engineering</span>
@@ -29,7 +29,7 @@ export default function EducationSection() {
                             whileHover={{ y: -5 }}
                             className="executive-glass p-10 rounded-[2.5rem] space-y-4"
                         >
-                            <Award className="text-brand-primary" size={24} />
+                            <Award className="text-[#D4AF37]" size={24} />
                             <h4 className="font-bold uppercase tracking-widest text-sm">Distinction Merit</h4>
                             <p className="text-xs text-muted-foreground leading-relaxed">Recognized for excellence in technical innovation and algorithmic precision.</p>
                         </motion.div>
@@ -37,7 +37,7 @@ export default function EducationSection() {
                             whileHover={{ y: -5 }}
                             className="executive-glass p-10 rounded-[2.5rem] space-y-4"
                         >
-                            <BookOpen className="text-brand-primary" size={24} />
+                            <BookOpen className="text-[#D4AF37]" size={24} />
                             <h4 className="font-bold uppercase tracking-widest text-sm">Advanced Certifications</h4>
                             <p className="text-xs text-muted-foreground leading-relaxed">Specialized in Modern Web Frameworks and AI Orchestration.</p>
                         </motion.div>

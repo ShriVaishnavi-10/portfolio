@@ -105,7 +105,7 @@ export default function ProjectShowcase() {
                                                 rel="noopener noreferrer"
                                                 className="p-4 rounded-full border border-white/5 hover:bg-white/5 transition-colors text-foreground/40 hover:text-foreground"
                                             >
-                                                <Github size={14} />
+                                                <Github className="text-[#D4AF37]" size={14} />
                                             </a>
                                             <a 
                                                 href={project.liveUrl} 
@@ -113,7 +113,7 @@ export default function ProjectShowcase() {
                                                 rel="noopener noreferrer"
                                                 className="p-4 rounded-full border border-white/5 hover:bg-accent text-foreground hover:text-background transition-all duration-500"
                                             >
-                                                <ArrowUpRight size={14} />
+                                                <ArrowUpRight className="text-[#D4AF37]" size={14} />
                                             </a>
                                         </div>
                                     </div>

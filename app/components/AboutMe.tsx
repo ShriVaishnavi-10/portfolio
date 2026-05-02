@@ -59,7 +59,7 @@ export default function AboutMe() {
                         className="flex"
                     >
                         <div className="aura-glass p-8 lg:p-12 rounded-[3rem] w-full flex flex-col justify-center">
-                            <h3 className="text-3xl font-playfair italic opacity-10 uppercase tracking-tighter mb-12 text-center lg:text-left">Academic Roadmap</h3>
+                            <h3 className="text-3xl font-playfair italic text-[#D4AF37] uppercase tracking-tighter mb-12 text-center lg:text-left">Academic Roadmap</h3>
 
                             <div className="relative space-y-10">
                                 <div className="absolute left-[7px] top-2 bottom-2 w-[1px] bg-accent/10" />

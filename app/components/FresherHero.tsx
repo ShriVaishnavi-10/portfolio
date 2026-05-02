@@ -70,7 +70,7 @@ export default function FresherHero() {
                 transition={{ repeat: Infinity, duration: 2 }}
                 className="absolute bottom-12 left-1/2 -translate-x-1/2 opacity-20"
             >
-                <ChevronDown size={32} />
+                <ChevronDown className="text-[#D4AF37]" size={32} />
             </motion.div>
         </section>
     );

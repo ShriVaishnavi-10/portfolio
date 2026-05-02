@@ -96,7 +96,7 @@ export default function TechnicalFoundations() {
                                         className="aura-glass px-4 py-3 rounded-2xl flex items-center space-x-3 group transition-all duration-500 hover:-translate-y-1 hover:bg-white/[0.03] border border-white/5 hover:border-accent/40 shadow-md shadow-black/20"
                                     >
                                         <div className="w-10 h-10 rounded-xl bg-white/[0.02] border border-white/[0.05] flex items-center justify-center group-hover:scale-105 group-hover:bg-accent/10 transition-all duration-500">
-                                            <skill.icon className={`text-accent/60 transition-colors duration-500 ${skill.color}`} size={20} />
+                                            <skill.icon className={`text-[#D4AF37] transition-colors duration-500`} size={20} />
                                         </div>
                                         <span className="text-sm md:text-base font-medium tracking-wide text-foreground/80 group-hover:text-foreground transition-colors duration-500">
                                             {skill.name}

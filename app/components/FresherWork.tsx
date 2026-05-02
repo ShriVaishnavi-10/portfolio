@@ -59,7 +59,7 @@ export default function FresherWork() {
                                 </p>
                                 <div className="pt-4">
                                     <button className="flex items-center gap-4 text-xs font-bold tracking-widest uppercase hover:text-brand-primary transition-colors group">
-                                        View Project Case <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                                        View Project Case <ArrowRight size={16} className="text-[#D4AF37] group-hover:translate-x-1 transition-transform" />
                                     </button>
                                 </div>
                             </div>

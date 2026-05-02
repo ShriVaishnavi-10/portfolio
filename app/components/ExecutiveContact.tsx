@@ -137,10 +137,12 @@ export default function ExecutiveContact() {
                                 <motion.a
                                     key={i}
                                     href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     whileHover={{ y: -5, color: "#D4AF37" }}
                                     className="p-4 rounded-full border border-white/5 bg-white/[0.02] text-foreground/40 transition-colors hover:border-accent/30 hover:bg-accent/5"
                                 >
-                                    <item.icon size={20} />
+                                    <item.icon className="text-[#D4AF37]" size={20} />
                                 </motion.a>
                             ))}
                         </div>
